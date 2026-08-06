@@ -8,7 +8,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "<h1>About</h1><p>Hi, I’m BABA. This site shares my projects and ideas.</p>"
+    return "<h1>About</h1><p>Hi,  This site shares my projects and ideas.</p>"
 
 if __name__ == "__main__":
     app.run(debug=True)
